@@ -1,5 +1,10 @@
-body{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body {
+    font-family: "Verdana";
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 #btn1
 {
@@ -14,11 +19,11 @@ body{
     background-color: plum;
     border: navajowhite;
     color: aliceblue;
+    margin-left: 60px;
 }
-.container
-{
-    width: 200px;
-    margin: 0px auto;
+.container {
+    text-align: center;
+    flex-direction: column;
 }
 
 
